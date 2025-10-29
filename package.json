@@ -1,0 +1,11 @@
+{
+  "name": "@google/mcp-server-box-extension",
+  "version": "0.4.0",
+  "description": "Box MCP Server extension for Gemini CLI",
+  "private": true,
+  "scripts": {
+    "postinstall": "node install-deps.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

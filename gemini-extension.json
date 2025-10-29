@@ -1,0 +1,15 @@
+{
+  "name": "mcp-server-box",
+  "version": "0.4.0",
+  "description": "Box MCP Server for cloud storage operations and integrations",
+  "platforms": ["win32", "darwin", "linux"],
+  "mcpServers": {
+    "box": {
+      "command": "${embeddedPythonPath}",
+      "args": ["-m", "src"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
